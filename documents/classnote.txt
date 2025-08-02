@@ -1,0 +1,145 @@
+--------------------------------------------------
+    Start { 12.07.2025 WED 12:35 AM }
+--------------------------------------------------
+
+[Milestone 02]
+[Module 03]
+
+Late.....😓
+
+
+Text Instruction___________________________________
+
+
+
+
+
+Video 01___________________________________________
+    (CSS Measuring units and Responsive Design Explanation)
+
+    Layout means --> "সাজানো"
+        Various type of Layout exists in Web Development,
+            single line layout, two column layout, magazine layout, zigzag layout, grid braking layout, card layout, hero layout, etc.
+
+    Measuring Units of CSS --> 
+    
+        • vh --> Equal to 1% of the height of the browser window size. 
+        • vw --> Equal to 1% of the width of the browser window size.
+        • vmin --> Use the smallest of the viewport width or height.
+        • vmax --> Use the largest of the viewport width or height.
+        • rem --> Relative to font size of the root element.
+        • em --> Relative to the font size of the parent element.
+        • px --> Pretty explanatory, absolute length in pixel. (1/96)inch *approx
+        • % --> Relative to the value of parent element.
+
+
+
+Video 02___________________________________________
+    (Flexbox, Flex direction, justify content, align items)
+
+    Use 'align-items' for aligning vertically -->
+
+        <selector> {align-items: center;}
+
+
+    Use both for align elements in middle of every side --> 
+
+        <selector> {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+Video 03___________________________________________
+    (Create Login form and Flexible Nav using Flexbox)
+
+    
+
+
+
+Video 04___________________________________________
+    (CSS Grid Layout: template, column, grid, gap)
+
+    We can add column using -->
+
+        .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            /* or */
+            grid-template-columns: repeat(3, 100px);
+            /* 3 column added */
+        }
+
+    We can use Fraction using -->
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+
+--------------------------------------------------
+    Pause { 16.07.2025 WED ~04:30 PM } to { 16.07.2025 WED ~03:00 PM }
+--------------------------------------------------
+
+
+Video 05___________________________________________
+    (Create Calender Using CSS Grid and Flexbox)
+
+    I can use row-gap or column-gap -->
+        
+        .selector {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            row-gap: 15px;
+            column-gap: 30px;
+        }
+
+
+Video 06___________________________________________
+    (Explore Basic Responsiveness using Simple Media Query)
+
+    We can create Responsive layout using -->
+
+        @media screen and (max-width: 576px) {
+            .selector {
+                <property> : <value> ;
+            }
+        }
+
+
+Video 07___________________________________________
+    (Responsive Media Query for small, medium and large devices)
+
+
+
+Video 08___________________________________________
+    (Seven Things You Need to Do to Make a Website Responsive)
+
+    1. Viewport Meta Tag
+    2. CSS Relative Measuring Units
+    3. Body Max-width and Horizontal Center align
+    4. Image Fluid: use '%'
+    5. Two Column Flex and Use Media Query with Flex Direction column
+    6. Multi Column: Grid Layout
+    7. Menu Responsive: We'll need Javascript
+
+
+
+Video 09___________________________________________
+    (Module Summery and Practice)
+
+
+
+
+PRACTICE TASK --->
+
+
+
+
+© Saad_Ferozee
+--------------------------------------------------
+    End { 16.07.2025 WED 07:13 PM }
+--------------------------------------------------
